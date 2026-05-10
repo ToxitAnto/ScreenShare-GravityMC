@@ -1,0 +1,54 @@
+server-name: "GravityMC"
+
+spawn:
+  server: "screenshare"   # Nome esatto del server in velocity.toml
+  x: 0.0                  # Coordinate impostate con /screenshareadmin setspawn
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+ranks:
+  staff-helper-color: "BLUE"
+  staff-mod-color: "RED"
+  staff-admin-color: "RED"
+  suspect-rank: "SOSPETTO"
+  staff-rank: "STAFF"
+
+commands:
+  ban-30d: "ban %player% 30d [SS] Cheating"
+  ban-ammissione: "ban %player% [SS] Ammissione hack"
+  ban-custom: "ban %player% [SS] %reason%"
+
+messages:
+  prefix: "&dGravity&fMC "
+  ss-start: "&aScreenshare avviata su &e%player%&a. Vai nella stanza SS!"
+  ss-already-in: "&c%player% e gia in screenshare!"
+  ss-finish: "&aScreenshare terminata."
+  ss-no-active: "&cNon hai nessuna screenshare attiva."
+  ss-no-player: "&cGiocatore non trovato."
+  ss-notify-target: "&cSei stato chiamato in screenshare dallo staff! Connettiti su discord!"
+  spawn-set: "&aSpawn SS impostato!"
+  spawn-not-set: "&cIl server della screenshare non e stato impostato!"
+  no-permission: "&cNon hai i permessi!"
+  no-commands: "&cNon puoi usare comandi durante la screenshare!"
+  ban-executed: "&aBan eseguito su &c%player% &a(tipo: %type%)."
+
+restricted-commands:
+  - "hub"
+  - "tpa"
+  - "tpaccept"
+  - "tpdeny"
+  - "spawn"
+  - "home"
+  - "sethome"
+  - "warp"
+  - "tp"
+  - "teleport"
+  - "back"
+  - "kit"
+  - "pay"
+  - "msg"
+  - "tell"
+  - "r"
+  - "reply"

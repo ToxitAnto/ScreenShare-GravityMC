@@ -1,0 +1,10 @@
+it\gravitymc\screenshare\commands\SSBanCommand.class
+it\gravitymc\screenshare\commands\SSCommand.class
+it\gravitymc\screenshare\managers\ScreenShareManager.class
+it\gravitymc\screenshare\managers\SpawnManager.class
+velocity-plugin.json
+it\gravitymc\screenshare\commands\SSAdminCommand.class
+it\gravitymc\screenshare\ScreenShare.class
+it\gravitymc\screenshare\commands\SSFinishCommand.class
+it\gravitymc\screenshare\listeners\PlayerCommandListener.class
+it\gravitymc\screenshare\managers\BanPanelManager.class
